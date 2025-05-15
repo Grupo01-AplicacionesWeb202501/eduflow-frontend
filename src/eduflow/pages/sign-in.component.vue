@@ -55,7 +55,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1e3a8a; /* Fondo azul */
+  background-color: #315a86;
   padding: 1rem;
 }
 </style>

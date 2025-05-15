@@ -1,6 +1,7 @@
 <script>
   import {UserService} from "../services/user.service.js";
-
+  import { useRouter } from "vue-router";
+  import router from "../../router/index.js";
   export default{
     name: "SignUpComponent",
     data(){

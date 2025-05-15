@@ -1,34 +1,34 @@
 <script>
-
+  import {ref} from "vue";
+  import {useRouter} from "vue-router";
   import {UserService} from "../services/user.service.js";
 
-  export default{
+  export default {
     name: "SignInComponent",
-    data(){
-      return{
-        email: '',
-        password: '',
-        userService: new UserService(),
-      };
-    },
-    methods:{
-      async handleSignIn(){
+    setup(){
+      const email = ref("");
+      const password = ref("");
+      const router = useRouter();
+      const userService = new UserService();
+
+      const handleSignIn = async () => {
         try{
-          const user = await this.userService.signIn(this.email, this.password);
-          alert(`¡Welcome, ${user.name}!`);
+          const user = await userService.signIn(email.value, password.value);
+          alert(`Welcome, ${user.name}!`);
+          router.push("/dashboard");
         }catch(error){
-          alert("Error signing in: " + error.message);
+          alert("Credentials are incorrect. Try again.");
         }
-      },
+      };
+
+      return { email, password, handleSignIn };
     },
   };
 </script>
 
 <template>
-  <div class="signin-container">
-    <header>
-      <h1>Welcome to Eduflow</h1>
-    </header>
+ <div class="signin-container">
+
     <div class="form-card">
       <h2>Sign In</h2>
       <pv-input-text
@@ -46,35 +46,16 @@
       </p>
     </div>
   </div>
+
 </template>
 
 <style>
- /* .signin-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #000;
-  }
-  .form-card {
-    background: #024;
-    color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    text-align: center;
-    width: 300px;
-  }
-  .signin-btn {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    border: none;
-    background-color: #0288d1;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .signin-btn:hover {
-    background-color: #0277bd;
-  }*/
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e3a8a; /* Fondo azul */
+  padding: 1rem;
+}
 </style>

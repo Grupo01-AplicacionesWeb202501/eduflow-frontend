@@ -30,7 +30,7 @@
  <div class="signin-container">
 
     <div class="form-card">
-      <h2>Sign In</h2>
+      <h2>EduFlow Sign In</h2>
       <pv-input-text
         v-model="email"
         label="Email"

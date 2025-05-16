@@ -29,30 +29,37 @@ export default {
 
 <style scoped>
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
-  padding: 30px;
+  padding: 40px 20px;
   background-color: #f5f7fa;
 }
 
 .title {
   text-align: center;
-  font-size: 28px;
+  font-size: 32px;
   color: #2c3e50;
   margin-bottom: 40px;
 }
 
 .card {
   background-color: #204080;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   color: white;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .section-title {
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* Ajustes para pantallas grandes */
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 90%;
+  }
 }
 </style>

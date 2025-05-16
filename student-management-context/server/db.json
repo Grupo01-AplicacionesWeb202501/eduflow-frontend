@@ -1,0 +1,204 @@
+{
+  "students": [
+    {
+      "id_estudiante": 1,
+      "nombre": "Juan Pérez",
+      "correo": "juan123@gmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500001",
+      "carrera": "Ingeniería de Software",
+      "ciclo_actual": 5,
+      "id": "7483"
+    },
+    {
+      "id_estudiante": 2,
+      "nombre": "Pedro Espinoza",
+      "correo": "espinozaP@outlook.es",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500002",
+      "carrera": "Administración de empresas",
+      "ciclo_actual": 2,
+      "id": "6fea"
+    },
+    {
+      "id_estudiante": 3,
+      "nombre": "Valentina Suárez",
+      "correo": "valSu1604@gmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500003",
+      "carrera": "Diseño y gestión en moda",
+      "ciclo_actual": 4,
+      "id": "b798"
+    },
+    {
+      "id_estudiante": 4,
+      "nombre": "Juan Torres",
+      "correo": "torrjuan133@gmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500004",
+      "carrera": "Ingeniería Civil",
+      "ciclo_actual": 7,
+      "id": "1e82"
+    },
+    {
+      "id_estudiante": 5,
+      "nombre": "Juan Pérez",
+      "correo": "juan123@hotmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500005",
+      "carrera": "Ingeniería de Software",
+      "ciclo_actual": 3,
+      "id": "33dd"
+    },
+    {
+      "id_estudiante": 6,
+      "nombre": "María López",
+      "correo": "m.lopez@outlook.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500006",
+      "carrera": "Ingeniería de Sistemas",
+      "ciclo_actual": 9,
+      "id": "6aa0"
+    },
+    {
+      "id_estudiante": 7,
+      "nombre": "Ana Gómez",
+      "correo": "ana_gomez@yahoo.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500008",
+      "carrera": "Contabilidad",
+      "ciclo_actual": 2,
+      "id": "1e62"
+    },
+    {
+      "id_estudiante": 8,
+      "nombre": "Luis Torres",
+      "correo": "luis.torres@outlook.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500009",
+      "carrera": "Ingeniería Industrial",
+      "ciclo_actual": 10,
+      "id": "708d"
+    },
+    {
+      "id_estudiante": 9,
+      "nombre": "Pedro Sánchez",
+      "correo": "pedro.sanchez@protonmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500011",
+      "carrera": "Psicología",
+      "ciclo_actual": 1,
+      "id": "9412"
+    },
+    {
+      "id_estudiante": 10,
+      "nombre": "Laura Mendoza",
+      "correo": "laura.mendoza@icloud.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500012",
+      "carrera": "Derecho",
+      "ciclo_actual": 4,
+      "id": "2c9c"
+    },
+    {
+      "id_estudiante": 11,
+      "nombre": "Paola Jiménez",
+      "correo": "paola.jimenez@live.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500014",
+      "carrera": "Arquitectura",
+      "ciclo_actual": 7,
+      "id": "732c"
+    }
+  ],
+  "documents": [
+    {
+      "id_estudiante": 1,
+      "id_documento": 1,
+      "tipo_documento": "Pasaporte",
+      "estado_validacion": "pendiente",
+      "fecha_subida": "2025-05-08",
+      "id": "5919"
+    },
+    {
+      "id_estudiante": 2,
+      "id_documento": 2,
+      "tipo_documento": "Pasaporte",
+      "estado_validacion": "rechazado",
+      "fecha_subida": "2025-05-08",
+      "id": "5919"
+    },
+    {
+      "id_estudiante": 3,
+      "id_documento": 3,
+      "tipo_documento": "Pasaporte",
+      "estado_validacion": "rechazado",
+      "fecha_subida": "2025-05-08",
+      "id": "5919"
+    },
+    {
+      "id_estudiante": 4,
+      "id_documento": 4,
+      "tipo_documento": "DNI",
+      "estado_validacion": "aprobado",
+      "fecha_subida": "2025-05-07",
+      "id": "ebb5"
+    },
+    {
+      "id_estudiante": 5,
+      "id_documento": 5,
+      "tipo_documento": "Carnet universitario",
+      "estado_validacion": "pendiente",
+      "fecha_subida": "2025-05-06",
+      "id": "16a2"
+    },
+    {
+      "id_estudiante": 6,
+      "id_documento": 6,
+      "tipo_documento": "DNI",
+      "estado_validacion": "aprobado",
+      "fecha_subida": "2025-05-05",
+      "id": "224b"
+    },
+    {
+      "id_estudiante": 7,
+      "id_documento": 7,
+      "tipo_documento": "Pasaporte",
+      "estado_validacion": "rechazado",
+      "fecha_subida": "2025-05-04",
+      "id": "102b"
+    },
+    {
+      "id_estudiante": 8,
+      "id_documento": 8,
+      "tipo_documento": "DNI",
+      "estado_validacion": "aprobado",
+      "fecha_subida": "2025-05-03",
+      "id": "de37"
+    },
+    {
+      "id_estudiante": 9,
+      "id_documento": 9,
+      "tipo_documento": "Carnet de extranjería",
+      "estado_validacion": "pendiente",
+      "fecha_subida": "2025-05-02",
+      "id": "2e70"
+    },
+    {
+      "id_estudiante": 10,
+      "id_documento": 10,
+      "tipo_documento": "DNI",
+      "estado_validacion": "aprobado",
+      "fecha_subida": "2025-05-01",
+      "id": "f2dd"
+    },
+    {
+      "id_estudiante": 11,
+      "id_documento": 11,
+      "tipo_documento": "Carnet universitario",
+      "estado_validacion": "pendiente",
+      "fecha_subida": "2025-04-30",
+      "id": "7b62"
+    }
+  ]
+}

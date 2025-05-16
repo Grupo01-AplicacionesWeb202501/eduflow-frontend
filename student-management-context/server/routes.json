@@ -1,0 +1,7 @@
+{
+  "/api/*": "/$1",
+  "/api/students": "/students",
+  "/api/Documento": "/documents",
+  "students/:id": "students/:id",
+  "/api/search/:search_term": "/students?q=:search_term"
+}

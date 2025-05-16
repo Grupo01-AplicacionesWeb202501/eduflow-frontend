@@ -121,5 +121,17 @@
       "ciclo_actual": 5,
       "contrasena": "12346"
     }
+  ],
+  "teachers": [
+    {
+      "id": "1e6212ff",
+      "id_teacher": 1,
+      "nombre": "Dr. Carlos Ruiz",
+      "correo": "carlos.ruiz@universidad.com",
+      "tipoUsuario": "teacher",
+      "materia": "Matemáticas",
+      "codigoProfesor": "T202500001",
+      "contrasena": "123456789"
+    }
   ]
 }

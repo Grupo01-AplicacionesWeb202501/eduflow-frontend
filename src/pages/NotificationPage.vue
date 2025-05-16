@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <h1 class="title">Gestión de Notificaciones</h1>
+  <div class="notification-wrapper">
+    <h1>Gestión de Notificaciones</h1>
 
     <div class="card">
       <h2 class="section-title">Notificaciones Recientes</h2>
@@ -28,38 +28,44 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 40px 20px;
-  background-color: #f5f7fa;
+.notification-wrapper {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e3a5f; /* fondo azul oscuro */
+  color: #dbe6f3;
+  padding: 2rem;
+  min-height: 90vh;
+  border-radius: 8px;
 }
 
-.title {
+h1 {
   text-align: center;
-  font-size: 32px;
-  color: #2c3e50;
-  margin-bottom: 40px;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e1e9f5;
 }
 
 .card {
-  background-color: #204080;
-  padding: 24px;
-  border-radius: 14px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  color: white;
-  margin-bottom: 30px;
+  background-color: #2c4a7a;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px #0f2945;
+  color: #e9f2ff;
 }
 
 .section-title {
-  font-size: 22px;
-  margin-bottom: 20px;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-align: center;
+  color: #acc2d7;
 }
 
-/* Ajustes para pantallas grandes */
-@media screen and (min-width: 1400px) {
-  .container {
-    max-width: 90%;
+/* Responsivo */
+@media (max-width: 900px) {
+  .notification-wrapper {
+    padding: 1.5rem 1rem;
   }
 }
 </style>

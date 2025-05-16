@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-const SignInComponent = () => import("../eduflow/pages/sign-in.component.vue");
-const SignUpComponent = () => import("../eduflow/pages/sign-up.component.vue");
+const SignInComponent = () => import("../pages/sign-in.component.vue");
+const SignUpComponent = () => import("../pages/sign-up.component.vue");
 const NotificationPage = () => import("../pages/NotificationPage.vue");
 const PageNotFoundComponent = () => import("../pages/page-not-found.component.vue");
 

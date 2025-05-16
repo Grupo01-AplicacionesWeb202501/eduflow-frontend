@@ -6,11 +6,20 @@ const NotificationPage = () => import("../pages/NotificationPage.vue");
 const PageNotFoundComponent = () => import("../pages/page-not-found.component.vue");
 
 const routes = [
-  { path: "/sign-in", name: "SignInComponent", component: SignInComponent },
-  { path: "/sign-up", name: "SignUpComponent", component: SignUpComponent },
-  { path: "/notificaciones", name: "NotificationPage", component: NotificationPage },
-  { path: "/", name: "default", redirect: { name: "SignInComponent" } },
-  { path: "/:pathMatch(.*)*", name: "PageNotFoundComponent", component: PageNotFoundComponent }
+  {
+    path: "/notificaciones",
+    name: "NotificationPage",
+    component: NotificationPage
+  },
+  {
+    path: "/",
+    redirect: { name: "NotificationPage" }
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "PageNotFoundComponent",
+    component: PageNotFoundComponent
+  }
 ];
 
 const router = createRouter({

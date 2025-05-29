@@ -1,32 +1,137 @@
 {
-  "users": [
+  "students": [
     {
-      "id": "1",
-      "email": "profesor1@eduflow.com",
-      "password": "hashed_password_1",
-      "type": "teacher",
-      "name": "Juan Pérez",
-      "subject": "Matemáticas",
-      "experience": 5
+      "id_estudiante": 1,
+      "nombre": "Juan Pérez",
+      "correo": "juan123@gmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500001",
+      "carrera": "Ingeniería de Software",
+      "ciclo_actual": 5,
+      "id": "7483"
     },
     {
-      "id": "2",
-      "email": "alumno1@eduflow.com",
-      "password": "hashed_password_2",
-      "type": "student",
-      "name": "María García",
-      "grade": "4to Secundaria",
-      "age": 16
+      "id_estudiante": 2,
+      "nombre": "Pedro Espinoza",
+      "correo": "espinozaP@outlook.es",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500002",
+      "carrera": "Administración de empresas",
+      "ciclo_actual": 2,
+      "id": "6fea"
     },
     {
-      "id": 3,
-      "email": "renzo@gmail.com",
-      "password": "12345",
-      "type": {
-        "label": "Student",
-        "value": "student"
-      },
-      "name": "renzo"
+      "id_estudiante": 3,
+      "nombre": "Valentina Suárez",
+      "correo": "valSu1604@gmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500003",
+      "carrera": "Diseño y gestión en moda",
+      "ciclo_actual": 4,
+      "id": "b798"
+    },
+    {
+      "id_estudiante": 4,
+      "nombre": "Juan Torres",
+      "correo": "torrjuan133@gmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500004",
+      "carrera": "Ingeniería Civil",
+      "ciclo_actual": 7,
+      "id": "1e82"
+    },
+    {
+      "id_estudiante": 5,
+      "nombre": "Juan Pérez",
+      "correo": "juan123@hotmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500005",
+      "carrera": "Ingeniería de Software",
+      "ciclo_actual": 3,
+      "id": "33dd"
+    },
+    {
+      "id_estudiante": 6,
+      "nombre": "María López",
+      "correo": "m.lopez@outlook.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500006",
+      "carrera": "Ingeniería de Sistemas",
+      "ciclo_actual": 9,
+      "id": "6aa0"
+    },
+    {
+      "id_estudiante": 7,
+      "nombre": "Ana Gómez",
+      "correo": "ana_gomez@yahoo.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500008",
+      "carrera": "Contabilidad",
+      "ciclo_actual": 2,
+      "id": "1e62"
+    },
+    {
+      "id_estudiante": 8,
+      "nombre": "Luis Torres",
+      "correo": "luis.torres@outlook.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500009",
+      "carrera": "Ingeniería Industrial",
+      "ciclo_actual": 10,
+      "id": "708d"
+    },
+    {
+      "id_estudiante": 9,
+      "nombre": "Pedro Sánchez",
+      "correo": "pedro.sanchez@protonmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500011",
+      "carrera": "Psicología",
+      "ciclo_actual": 1,
+      "id": "9412"
+    },
+    {
+      "id_estudiante": 10,
+      "nombre": "Laura Mendoza",
+      "correo": "laura.mendoza@icloud.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500012",
+      "carrera": "Derecho",
+      "ciclo_actual": 4,
+      "id": "2c9c"
+    },
+    {
+      "id_estudiante": 11,
+      "nombre": "Paola Jiménez",
+      "correo": "paola.jimenez@live.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500014",
+      "carrera": "Arquitectura",
+      "ciclo_actual": 7,
+      "id": "732c"
+    },
+    {
+      "id": "1e6202ff",
+      "id_estudiante": 12,
+      "nombre": "Renzo Araujo",
+      "correo": "renzoaraujo@gmail.com",
+      "tipoUsuario": "student",
+      "codigoAlumno": "S202500012",
+      "carrera": "ing. software",
+      "ciclo_actual": 5,
+      "contrasena": "12346"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1e6212ff",
+      "id_teacher": 1,
+      "nombre": "Dr. Carlos Ruiz",
+      "correo": "carlos.ruiz@universidad.com",
+      "tipoUsuario": "teacher",
+      "materia": "Matemáticas",
+      "codigoProfesor": "T202500001",
+      "contrasena": "123456789"
     }
   ]
 }

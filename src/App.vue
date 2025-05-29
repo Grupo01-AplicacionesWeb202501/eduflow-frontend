@@ -1,6 +1,5 @@
 <script>
 import HeaderContent from "./public/components/header-content.component.vue";
-import LenguageSwitcher from "./public/components/lenguage-switcher.component.vue";
 
 export default {
   name: "App",

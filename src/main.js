@@ -2,7 +2,6 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 import i18n from './i18n'
-import router from './router/index.js';
 import PrimeVue from 'primevue/config';
 import ToastService from 'primevue/toastservice'; // Importar el servicio de notificaciones
 import selectbutton from 'primevue/selectbutton';
@@ -10,7 +9,6 @@ import toolbar from 'primevue/toolbar';
 import button from 'primevue/button';
 import router from './router/index.js';
 import { Dropdown, InputText, Toast } from "primevue"; // Importar Toast
-
 import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
 import ColumnGroup from 'primevue/columngroup';

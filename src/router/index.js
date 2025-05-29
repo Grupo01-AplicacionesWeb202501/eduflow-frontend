@@ -4,9 +4,11 @@ const LoginComponent = () => import("../eduflow/pages/login.component.vue");
 const SignInStudentComponent = () => import("../eduflow/pages/sign-in-student.component.vue");
 const SignUpStudentComponent = () => import("../eduflow/pages/sign-up-student.component.vue");
 
-const PageNotFoundComponent = () => import("../public/pages/page-not-found.component.vue");
 const SignInTeacherComponent = () => import("../eduflow/pages/sign-in-teacher.component.vue");
 const SignUpTeacherComponent = () => import("../eduflow/pages/sign-up-teacher.component.vue");
+const NotificationPage = () => import("../pages/NotificationPage.vue");
+const PageNotFoundComponent = () => import("../pages/page-not-found.component.vue");
+
 const routes = [
 
     { path: '/login', name: "LoginComponents", component: LoginComponent},
@@ -20,10 +22,25 @@ const routes = [
     { path: "/", name: "default", redirect: { name: "CourseManagement" } },
     { path: "/:pathMatch(.*)*", name: "PageNotFoundComponent", component: PageNotFoundComponent }
 ];
+  {
+    path: "/notificaciones",
+    name: "NotificationPage",
+    component: NotificationPage
+  },
+  {
+    path: "/",
+    redirect: { name: "NotificationPage" }
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "PageNotFoundComponent",
+    component: PageNotFoundComponent
+  }
+];
 
 const router = createRouter({
-    history: createWebHistory(),
-    routes
+  history: createWebHistory(),
+  routes: routes
 });
 
 export default router;

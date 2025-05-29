@@ -12,8 +12,8 @@ const routes = [
     { path: "/sign-up-student", name: "SignUpStudentComponent", component: SignUpStudentComponent},
     { path: "/sign-in-teacher", name: "SignInTeacherComponent", component: SignInTeacherComponent},
     { path: "/sign-up-teacher", name: "SignUpTeacherComponent", component: SignUpTeacherComponent},
-    {path: "/",      name:'default', redirect:{name: "LoginComponents"}},
-    {path: "/:pathMatch(.*)*", name: "PageNotFoundComponent", component: PageNotFoundComponent}
+    { path: "/",      name:'default', redirect:{name: "LoginComponents"}},
+    { path: "/:pathMatch(.*)*", name: "PageNotFoundComponent", component: PageNotFoundComponent}
 ]
 
 const router = createRouter({

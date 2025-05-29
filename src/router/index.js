@@ -20,22 +20,9 @@ const routes = [
     { path: "/:pathMatch(.*)*", name: "PageNotFoundComponent", component: PageNotFoundComponent},
     { path: "/courses", name: "CourseManagement", component: CourseManagement },
     { path: "/", name: "default", redirect: { name: "CourseManagement" } },
-    { path: "/:pathMatch(.*)*", name: "PageNotFoundComponent", component: PageNotFoundComponent }
-];
-  {
-    path: "/notificaciones",
-    name: "NotificationPage",
-    component: NotificationPage
-  },
-  {
-    path: "/",
-    redirect: { name: "NotificationPage" }
-  },
-  {
-    path: "/:pathMatch(.*)*",
-    name: "PageNotFoundComponent",
-    component: PageNotFoundComponent
-  }
+    { path: "/:pathMatch(.*)*", name: "PageNotFoundComponent", component: PageNotFoundComponent },
+    { path: "/notificaciones", name: "NotificationPage", component: NotificationPage},
+
 ];
 
 const router = createRouter({

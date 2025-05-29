@@ -8,6 +8,7 @@ const SignInTeacherComponent = () => import("../eduflow/pages/sign-in-teacher.co
 const SignUpTeacherComponent = () => import("../eduflow/pages/sign-up-teacher.component.vue");
 const NotificationPage = () => import("../pages/NotificationPage.vue");
 const PageNotFoundComponent = () => import("../pages/page-not-found.component.vue");
+const StudentManagement = () => import("../student-management/pages/student-management.component.vue")
 
 const routes = [
 
@@ -24,6 +25,9 @@ const routes = [
     { path: "/notificaciones", name: "NotificationPage", component: NotificationPage},
 
 ];
+    { path: '/student-management', name: 'StudentManagement', component: StudentManagement, meta: { title: 'Student Management'} },
+    { path: '/', name:'default', redirect: '/student-management' }
+]
 
 const router = createRouter({
   history: createWebHistory(),

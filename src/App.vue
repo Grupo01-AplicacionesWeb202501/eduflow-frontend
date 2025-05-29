@@ -1,22 +1,33 @@
+<script>
+import HeaderContent from "./public/components/header-content.component.vue";
+import LenguageSwitcher from "./public/components/lenguage-switcher.component.vue";
+
+export default {
+  name: "App",
+  components: {HeaderContent},
+  data() {
+    return {
+      item: [
+        { label: 'option.student-management', to: '/student-management' },
+      ]
+    }
+  }
+}
+
+</script>
+
 <template>
-  <div class="app">
-    <header>
-      <h1>Portal Universitario</h1>
-      <nav>
-        <router-link to="/courses">Gestión de Cursos</router-link>
-      </nav>
-    </header>
+  <div>
+    <header-content></header-content>
+
+    <nav>
+      <router-link to="/student-management"></router-link>
+    </nav>
     <main>
-      <router-view />
+      <router-view></router-view>
     </main>
   </div>
 </template>
-
-<script>
-export default {
-  name: "App",
-};
-</script>
 
 <style>
 nav {

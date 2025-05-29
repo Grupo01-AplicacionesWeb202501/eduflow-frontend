@@ -20,14 +20,10 @@ const routes = [
     { path: "/",      name:'default', redirect:{name: "LoginComponents"}},
     { path: "/:pathMatch(.*)*", name: "PageNotFoundComponent", component: PageNotFoundComponent},
     { path: "/courses", name: "CourseManagement", component: CourseManagement },
-    { path: "/", name: "default", redirect: { name: "CourseManagement" } },
-    { path: "/:pathMatch(.*)*", name: "PageNotFoundComponent", component: PageNotFoundComponent },
     { path: "/notificaciones", name: "NotificationPage", component: NotificationPage},
-
-];
     { path: '/student-management', name: 'StudentManagement', component: StudentManagement, meta: { title: 'Student Management'} },
-    { path: '/', name:'default', redirect: '/student-management' }
-]
+];
+
 
 const router = createRouter({
   history: createWebHistory(),
